@@ -1,1 +1,12 @@
 
+-- SELECT #untuk mengambil data 
+
+
+--  mengambil semua data di tabel employee_Salary
+SELECT *
+FROM employee_salary;
+
+--   mengambil semua data di tabel employee_Salary dan memfilter salary di atas 50.000
+SELECT *
+FROM employee_salary
+WHERE salary >= 50000;
